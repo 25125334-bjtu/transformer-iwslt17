@@ -39,19 +39,19 @@ cat example_trans.txt
 echo "valid BLEU:"
 python -m src.translate \
   --data_dir data/iwslt17 \
-  --model checkpoints/abl-pos-none/best.pt \
+  --model checkpoints/best.pt \
   --input data/iwslt17/raw/valid.en \
-  --output checkpoints/abl-pos-none/valid.hyp.de \
+  --output checkpoints/valid.hyp.de \
   --beam_size 8 --max_len 120
 
-sacrebleu data/iwslt17/raw/valid.de -i checkpoints/abl-pos-none/valid.hyp.de -m bleu -b -w 2
+sacrebleu data/iwslt17/raw/valid.de -i checkpoints/valid.hyp.de -m bleu -b -w 2
 
 echo "test BLEU:"
 python -m src.translate \
   --data_dir data/iwslt17 \
-  --model checkpoints/abl-pos-none/best.pt \
+  --model checkpoints/best.pt \
   --input data/iwslt17/raw/test.en \
-  --output checkpoints/abl-pos-none/test.hyp.de \
+  --output checkpoints/test.hyp.de \
   --beam_size 8 --max_len 120
   
-sacrebleu data/iwslt17/raw/test.de -i checkpoints/abl-pos-none/test.hyp.de -m bleu -b -w 2
+sacrebleu data/iwslt17/raw/test.de -i checkpoints/test.hyp.de -m bleu -b -w 2

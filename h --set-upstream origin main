@@ -1,0 +1,30 @@
+[33mcommit 8db5a56d9742031fce4177a094dd24c514220e10[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: 25125334-bjtu <1349753590@qq.com>
+Date:   Sun Nov 9 22:16:46 2025 +0800
+
+    transformer
+
+[33mcommit 6b9c2b972155f19dd854fc7557444a6c0dd14d1d[m
+Author: 25125334-bjtu <1349753590@qq.com>
+Date:   Sun Nov 9 22:14:18 2025 +0800
+
+    transformer
+
+[33mcommit 4bdd03546adc2d07cf15f2176eaf6327b6bde5f1[m
+Merge: e051be5 e6a0789
+Author: 25125334-bjtu <1349753590@qq.com>
+Date:   Sun Nov 9 22:06:03 2025 +0800
+
+    Merge branch 'main' of https://github.com/25125334-bjtu/transformer-iwslt17
+
+[33mcommit e051be52373e58e3c1ef3a99bfa41cbd062fa705[m
+Author: 25125334-bjtu <1349753590@qq.com>
+Date:   Sun Nov 9 21:51:50 2025 +0800
+
+    transformer-iwslt17-en-de
+
+[33mcommit e6a07897cd72f8d1d2ab943cfbe9a8694a2f10f7[m
+Author: 25125334-bjtu <1349753590@qq.com>
+Date:   Sun Nov 9 13:52:44 2025 +0800
+
+    Initial commit
